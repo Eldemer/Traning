@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.contener{
+    width: 50%;
+    margin: auto;
+}
+
+.nav{
+    width: 100%;
+    height: 45px;
+    background-color: black;
+    display: flex; 
+    align-items: center;   
+    justify-content: space-between;
+    position: fixed;
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav ul li{
+    font-size: 20px;
+    padding: 0 15px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+.search{
+    padding-right: 50px;
+}
+
+.home{
+    background-image: url(../images/la.jpg);
+    height: 120vh;
+    background-size: cover; 
+    background-position: center;   
+}
+.content{    
+    width: 30%;
+    margin: auto;
+    padding-top: 700px;
+    text-align: center;
+    color: white;    
+}
+
+.content h1{
+    margin-bottom: 30px;
+}
+
+.content.p{
+    font-size: 15px;
+}
+
+.intro{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.intro h2{
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+.intro h5{
+    text-align: center;
+    margin-top: 20px;
+    color: gray;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.intro p{
+    margin-top: 20px;
+}
+
+.intro .images{
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.intro .images section{
+    text-align: center; 
+    margin-bottom: 10px;
+    margin-top: 50px;   
+}
+
+.intro .images  .img1 ,.img2 ,.img3{
+    margin: 0 50px;
+}
+
+.intro .images img{
+    height: 150px;
+    border-radius: 5px;
+}
+
+
+.tour{
+    height: 130vh;
+    background-color: black;
+}
+
+.tour h3{
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 4px;   
+}
+
+.tour h4{
+    color: gray;
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.tour .book {
+    background-color: white;
+    margin-top: 40px;
+}
+
+.tour .book p{
+    padding: 10px;
+    color: gray;
+
+}
+
+.tour .book button{
+    margin-left: 10px;
+    background-color: red;
+    color:white;
+    border: 0;
+    width: 70px;
+    height: 30px;
+}
+
+.tour .book i{
+    /* margin-left: 700px;
+    align-items: center;*/
+    float: right;
+    padding-right: 20px;
+} 
+
+.country{
+    display: flex;
+    margin-top: 40px;
+}
+.c1 ,.c2 ,.c3{
+    background-color: white;
+width: 32%;
+}
+.c2{
+margin: 0 20px;   
+}
+
+.country img{
+    width: 100%;
+
+}
+.country h2{
+    color: black;
+    font-size:  15px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.date{
+    color: gray;
+    margin: 20px 0;
+    padding-left: 10px;
+}
+.country p{
+    padding-left: 10px;
+    margin: 20px 0;
+}
+
+.country button{
+    color: white;
+    background-color: black;
+    width: 40%;
+    padding: 10px;
+    text-transform: capitalize;
+    border: 0;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.country img:hover{
+    opacity: 0.5;
+}
+
+.country button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
